@@ -1,0 +1,22 @@
+Steps for Testing
+-	Open the application on your computer. If you are testing the .exe version, double-click to start the program.
+
+Input Validation
+-	Enter a valid time in the format HH:MM:SS (e.g., 00:25:00). Confirm that the timer starts when you click "Start."
+-	Test invalid inputs (e.g., 99:99:99 or text like hello) and confirm that an error message appears.
+
+Countdown Functionality
+
+-	Observe the timer as it counts down. Ensure the display updates every second.
+-	Verify the motivational text, "Get to work, it's concentration time!" appears while the timer runs.
+
+Break Notification
+-	Allow the timer to reach zero. Confirm that the message, "Break Time, you've earned it!" displays and that the sound plays.
+
+NB: Test multiple countdown sessions to confirm the app performs consistently.
+
+Expected Results
+-	Valid inputs start the timer correctly.
+-	Invalid inputs trigger error messages without crashing the application.
+-	The timer counts down accurately, displaying motivational text during the session.
+-	The app displays a break notification when the timer ends (completes the countdown). 
